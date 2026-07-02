@@ -1,6 +1,7 @@
 import React from 'react'
 
-const Card = () => {
+const Card = (props) => {
+    console.log(props)
   return (
     <div>
         <div className="card">
@@ -10,7 +11,7 @@ const Card = () => {
           </div>
         </div>
         <div className="center">
-          <h1>Yash Gupta</h1>
+          <h1>{props.user}</h1>
         </div>
         <div className="bottom">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, praesentium.</p>
