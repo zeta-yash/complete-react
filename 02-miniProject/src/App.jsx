@@ -1,8 +1,11 @@
 import React from 'react'
+import Section1 from './components/Section 1/Section1'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className=''>
+    <Section1 />
+    </div>
   )
 }
 
