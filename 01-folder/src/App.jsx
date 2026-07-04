@@ -2,7 +2,7 @@ import React from 'react'
 import Card from './components/Card'
 // lets create a single card first
 
-const arr = ["Adi","Amit","Nitin","Yash"] // the data
+const arr = ["Saundres","Afleck","Corlson"] // the data
 const App = () => {
   
   return (
@@ -10,7 +10,7 @@ const App = () => {
       {arr.map(function(elem){ // method to spread the data
         return <Card user = {elem}/>
       })}
-      <Card user = "Yash"/> 
+      {/* <Card user = "Yash"/>  */}
     </div>
   )
 }
