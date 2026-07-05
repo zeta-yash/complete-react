@@ -8,12 +8,12 @@ const slides = [
     tag: 'View'
   },
   {
-    img: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=2070&auto=format&fit=crop',
+    img: 'https://images.unsplash.com/photo-1692173248120-59547c3d4653?q=80&w=2001&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     info: 'Explore colorful festivals, local traditions, and breathtaking destinations that celebrate India’s diverse culture.',
     tag: 'Explore'
   },
   {
-    img: 'https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?q=80&w=2070&auto=format&fit=crop',
+    img: 'https://images.unsplash.com/photo-1550583074-288b9c016df5?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     info: 'Shop authentic handcrafted textiles, traditional jewelry, pottery, and artisan-made souvenirs from across India.',
     tag: 'Shop'
   },
