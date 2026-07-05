@@ -3,9 +3,9 @@ import { ArrowUpRight } from 'lucide-react';
 
 const Arrow = () => {
     return (
-        <div><div >
+        <div >
             <ArrowUpRight size={100} />
-        </div></div>
+        </div>
     )
 }
 
