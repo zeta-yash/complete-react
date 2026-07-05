@@ -1,5 +1,6 @@
 import React from 'react'
 import Section1 from './components/Section 1/Section1'
+import { CopyrightIcon } from 'lucide-react'
 
 const slides = [
   {
@@ -28,6 +29,8 @@ const App = () => {
   return (
     <div className=''>
     <Section1 users={slides}/>
+    <div className="flex text-center justify-center ">
+      <CopyrightIcon/><p>YASH GUPTA, 2026</p></div>
     </div>
   )
 }
