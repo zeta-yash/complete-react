@@ -29,7 +29,7 @@ const App = () => {
   return (
     <div className=''>
     <Section1 users={slides}/>
-    <div className="flex text-center justify-center ">
+    <div className="flex text-center justify-centerpsit ">
       <CopyrightIcon/><p>YASH GUPTA, 2026</p></div>
     </div>
   )
