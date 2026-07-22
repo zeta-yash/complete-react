@@ -1,13 +1,6 @@
 @import "tailwindcss";
 
 html{
-  background: #444;
+  background: #323232;
 }
 
-input,button{
- padding: 10px;
- margin: 10px;
- font-size: large;
- background-color: #fff;
-
-}
