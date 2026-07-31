@@ -17,6 +17,7 @@ const App = () => {
   localStorage.setItem('user2',JSON.stringify(user2det))
   const getuser = JSON.parse(localStorage.getItem('user2'));
   console.log(getuser)
+  
 
   
   // localStorage.clear()
