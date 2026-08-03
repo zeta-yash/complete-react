@@ -22,7 +22,7 @@ const App = () => {
   }
 
   const deleteNote=(idx)=>{
-    const copyTask = [...task];``
+    const copyTask = [...task];
     copyTask.splice(idx,1)
     setTask(copyTask)
     
