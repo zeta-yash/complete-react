@@ -8,6 +8,7 @@ const Product = () => {
       <div>
         <Link to='men'>Mens</Link>
         <Link to='women'>Women</Link>
+        <Link to='kids'>Kids</Link>
       </div>
       <h1>
         Products
