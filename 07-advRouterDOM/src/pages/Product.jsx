@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom'
 const Product = () => {
   return (
     <div>
-      <div>
-        <Link to='men'>Mens</Link>
-        <Link to='women'>Women</Link>
-        <Link to='kids'>Kids</Link>
+      <div className='flex justify-center gap-5'>
+        <Link to='men' className='font-bold text-2xl text-white'>Mens</Link>
+        <Link to='women' className='font-bold text-2xl text-white'>Women</Link>
+        <Link to='kids' className='font-bold text-2xl text-white'>Kids</Link>
       </div>
       <h1>
         Products
