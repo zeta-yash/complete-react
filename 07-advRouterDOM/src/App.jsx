@@ -9,6 +9,9 @@ import About from './pages/About'
 import Men from './pages/Men'
 import Women from './pages/Women'
 import Kids from './pages/Kids'
+import Courses from './pages/Courses'
+import CourseDet from './pages/CourseDet'
+import Nav2 from './components/Nav2'
 
 
 
@@ -16,9 +19,12 @@ const App = () => {
   return (
     <div className=''>
       <Navbar />
+      <Nav2/>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
+        <Route path='/courses' element={<Courses/>}/>
+        <Route path='/courses/:id' element={<CourseDet/>}/>
         <Route path='/product' element={<Product />}>
           <Route index element={<h1>Product Page</h1>} /> {/*displays the product page as default*/}
           <Route path='men' element={<Men />} />

@@ -12,3 +12,8 @@ h1{
     color: slategray;
     white-space: nowrap;
 }
+
+.notfound{
+    color: tomato;
+}
+
