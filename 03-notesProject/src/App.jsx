@@ -8,7 +8,7 @@ const App = () => {
   const [task, setTask] = useState([])
   
   const SubmitHandler = (e) => {
-    e.preventDefault()
+    e.preventDefault() //to avoid refreshing the page on every submit button press
     // console.log(title);
 
     const copyTask = [...task]
