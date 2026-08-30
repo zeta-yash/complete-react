@@ -11,11 +11,19 @@ body {
   width: 100%;
 }
 
-.nav{
+.nav-light{
   display: flex;
   background-color: dodgerblue;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 25px;
+}
+.nav-dark{
+  display: flex;
+  background-color: darkblue;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
   padding: 20px 25px;
 }
 
@@ -23,5 +31,10 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 30px;
+}
+
+button{
+  font-size: larger;
+  margin: 50px;
 }
 
